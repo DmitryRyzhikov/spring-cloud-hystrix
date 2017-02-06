@@ -1,0 +1,3 @@
+com\baeldung\spring\cloud\hystrix\rest\consumer\GreetingController.class
+com\baeldung\spring\cloud\hystrix\rest\consumer\GreetingService.class
+com\baeldung\spring\cloud\hystrix\rest\consumer\RestConsumerApplication.class
