@@ -32,6 +32,7 @@ greeting to user will be shown.
 
 
     http://localhost:8080/get-greeting/Cid
+
     Expected output:
     Hello User!
 * If we will start producer again, consumer will show greeting to Cid.
