@@ -22,7 +22,9 @@ mean that in case if PRODUCER will not be available, Hystrix fallback method wil
 * To check that consumer is working type in browser:
 
 
+
     http://localhost:8080/get-greeting/Cid
+
     Expected output:
     Hello Cid!
 * To check that Hystrix fallback is working - shut down PRODUCER and type in browser. Insted of greeting to Cid,
