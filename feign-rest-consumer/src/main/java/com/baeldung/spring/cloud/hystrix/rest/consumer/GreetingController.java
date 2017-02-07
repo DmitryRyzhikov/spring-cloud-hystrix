@@ -15,7 +15,9 @@ public class GreetingController {
 
     @RequestMapping("/get-greeting/{username}")
     public String getGreeting(Model model, @PathVariable("username") String username) {
-        model.addAttribute("greeting", greetingClient.greeting(username));
+        String greeting = greetingClient.greeting(username);
+
+        model.addAttribute("greeting", greeting);
         return "greeting-view";
     }
 }
