@@ -5,7 +5,7 @@
 
 # TABLE of CONTENTS
 * [PRODUCER](#PRODUCER)
-* [CONSUMER HYSTRIX](#CONSUMER_HYSTRIX)
+* [CONSUMER HYSTRIX](#CONSUMER HYSTRIX)
 * [CONSUMER HYSTRIX+FEIGN](#CONSUMER_HYSTRIX_FEIGN)
 * [ENABLE HYSTRIX DASHBOARD](#ENABLE_HYSTRIX_DASHBOARD)
 
@@ -19,7 +19,7 @@
         Expected output:
     Hello Cid!
 
-# <a name="CONSUMER_HYSTRIX"/> CONSUMER HYSTRIX
+# CONSUMER HYSTRIX <a name="CONSUMER HYSTRIX"/>
 Consumer is the service that should access working producer via RestTemplate. Works via Hystrix - that
 mean that in case if PRODUCER will not be available, Hystrix fallback method will work.
 
