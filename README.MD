@@ -6,6 +6,8 @@
 # TABLE of CONTENTS
 * [PRODUCER](#PRODUCER)
 * [CONSUMER HYSTRIX](#CONSUMER_HYSTRIX)
+* [CONSUMER HYSTRIX+FEIGN](#CONSUMER_HYSTRIX_FEIGN)
+* [ENABLE HYSTRIX DASHBOARD](#ENABLE_HYSTRIX_DASHBOARD)
 
 # <a name="PRODUCER"/> PRODUCER
 * To run producer
@@ -44,7 +46,7 @@ greeting to user will be shown.
     Hello User!
 * If we will start producer again, consumer will show greeting to Cid.
 
-# CONSUMER HYSTRIX+FEIGN
+# <a name="CONSUMER_HYSTRIX_FEIGN"/>CONSUMER HYSTRIX+FEIGN
 This consumer uses Feign instead of rest template.
 * To run consumer
     - Run maven target: feign-rest-consumer [spring-boot:run]
@@ -56,7 +58,7 @@ This consumer uses Feign instead of rest template.
 greeting to user will be shown.
 
 
-# ENABLE HYSTRIX DASHBOARD
+# <a name="ENABLE_HYSTRIX_DASHBOARD"/>ENABLE HYSTRIX DASHBOARD
 * Add dependencies
 
 
