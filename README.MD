@@ -4,9 +4,10 @@
 - [How to use Hystrix](https://github.com/Netflix/Hystrix/wiki/How-To-Use)
 
 # TABLE of CONTENTS
-*[PRODUCER](#PRODUCER)
+* [PRODUCER](#PRODUCER)
+* [CONSUMER HYSTRIX](#CONSUMER_HYSTRIX)
 
-# PRODUCER
+# <a name="#PRODUCER"/> PRODUCER
 * To run producer
     - Run maven target: rest-producer [spring-boot:run]
 * To check that producer is working
@@ -16,7 +17,7 @@
         Expected output:
     Hello Cid!
 
-# CONSUMER HYSTRIX
+# <a name="#CONSUMER_HYSTRIX"/> CONSUMER HYSTRIX
 Consumer is the service that should access working producer via RestTemplate. Works via Hystrix - that
 mean that in case if PRODUCER will not be available, Hystrix fallback method will work.
 
