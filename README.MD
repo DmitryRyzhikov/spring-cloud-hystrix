@@ -3,6 +3,9 @@
 - [Hystrix project](https://github.com/Netflix/Hystrix)
 - [How to use Hystrix](https://github.com/Netflix/Hystrix/wiki/How-To-Use)
 
+# TABLE of CONTENTS
+*[PRODUCER](#PRODUCER)
+
 # PRODUCER
 * To run producer
     - Run maven target: rest-producer [spring-boot:run]
