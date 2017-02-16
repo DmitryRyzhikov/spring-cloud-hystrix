@@ -6,10 +6,10 @@
 # TABLE of CONTENTS
 * [PRODUCER](#PRODUCER)
 * [CONSUMER HYSTRIX](#CONSUMER HYSTRIX)
-* [CONSUMER HYSTRIX+FEIGN](#CONSUMER_HYSTRIX_FEIGN)
-* [ENABLE HYSTRIX DASHBOARD](#ENABLE_HYSTRIX_DASHBOARD)
+* [CONSUMER HYSTRIX+FEIGN](#CONSUMER HYSTRIX+FEIGN)
+* [ENABLE HYSTRIX DASHBOARD](#ENABLE HYSTRIX DASHBOARD)
 
-# <a name="PRODUCER"/> PRODUCER
+## PRODUCER <a name="PRODUCER"/>
 * To run producer
     - Run maven target: rest-producer [spring-boot:run]
 * To check that producer is working
@@ -19,7 +19,7 @@
         Expected output:
     Hello Cid!
 
-# CONSUMER HYSTRIX <a name="CONSUMER HYSTRIX"/>
+## CONSUMER HYSTRIX <a name="CONSUMER HYSTRIX"/>
 Consumer is the service that should access working producer via RestTemplate. Works via Hystrix - that
 mean that in case if PRODUCER will not be available, Hystrix fallback method will work.
 
@@ -46,7 +46,7 @@ greeting to user will be shown.
     Hello User!
 * If we will start producer again, consumer will show greeting to Cid.
 
-# <a name="CONSUMER_HYSTRIX_FEIGN"/>CONSUMER HYSTRIX+FEIGN
+## CONSUMER HYSTRIX+FEIGN <a name="CONSUMER HYSTRIX+FEIGN"/>
 This consumer uses Feign instead of rest template.
 * To run consumer
     - Run maven target: feign-rest-consumer [spring-boot:run]
@@ -58,7 +58,7 @@ This consumer uses Feign instead of rest template.
 greeting to user will be shown.
 
 
-# <a name="ENABLE_HYSTRIX_DASHBOARD"/>ENABLE HYSTRIX DASHBOARD
+## ENABLE HYSTRIX DASHBOARD <a name="ENABLE HYSTRIX DASHBOARD"/>
 * Add dependencies
 
 
