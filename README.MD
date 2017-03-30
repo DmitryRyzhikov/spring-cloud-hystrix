@@ -1,7 +1,10 @@
 ### Relevant Articles:
 - [A Guide to Spring Cloud Netflix – Hystrix](http://www.baeldung.com/spring-cloud-netflix-hystrix)
 - [Hystrix project](https://github.com/Netflix/Hystrix)
+- [What Is Hystrix?](https://github.com/Netflix/Hystrix/wiki)
+- [How Hystrix works?](https://github.com/Netflix/Hystrix/wiki/How-it-Works)
 - [How to use Hystrix](https://github.com/Netflix/Hystrix/wiki/How-To-Use)
+- [Hystix examles](https://github.com/Netflix/Hystrix/tree/master/hystrix-examples/src/main/java/com/netflix/hystrix/examples)
 
 # TABLE of CONTENTS
 * [PRODUCER](#PRODUCER)
